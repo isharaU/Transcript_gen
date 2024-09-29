@@ -1,0 +1,81 @@
+# Python-related ignores
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+
+# Virtual environments
+env/
+venv/
+*.env
+*.venv
+.Python
+
+# Conda environment
+*.conda
+*.env
+*.lock
+*.yml
+.conda/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Media files
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.wav
+*.mp3
+
+# Audio transcripts or output files
+transcript.txt
+*.srt
+
+# Moviepy temporary files
+*.temp.mp4
+*.temp*
+
+# Whisper model files (if you're caching them locally)
+whisper_models/
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+
+# PyCharm project files
+.idea/
+
+# VS Code project files
+.vscode/
+
+# pip or pipenv files
+Pipfile
+Pipfile.lock
+
+# Ignore build files (optional)
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Git-specific files
+*.orig
